@@ -1,0 +1,335 @@
+@import url(resume-styles);
+
+.rezume-content {
+	color: var(--default-color);
+}
+
+/* resume-image-ის გახსნა*/
+
+.resume-image img {
+	border-radius: 50%;
+	width: 50%;
+	height: 50%;
+	border: 5px solid rgb(48,142,134);
+    border-top:none;
+}
+
+/* resume-image-ის დახურვა*/
+
+
+/*header-name-item-ის გახსნა*/
+.header-name-item {
+	padding-top: 25px;
+	padding-right: 0;
+    text-align: right;
+}
+
+.header-name-item h1{
+	text-transform: capitalize;
+	font-family: var(--other-font);
+	padding-top: 40px;
+	text-align: center;
+	font-size: 33px;
+	font-weight: bold;
+	font-style: italic;
+	color: var(--default-color);
+	letter-spacing: 2px;
+	/*color: rgb(48,62,61);*/
+	padding-bottom: 10px;
+}
+
+
+.header-name-item h6 {
+	padding-right: 30px;
+	font-size: 30px;
+	font-style: italic;
+	font-family: var(--other-font);
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+
+/*header-name-item-ის დახურვა*/
+
+
+
+/*left-content-ის გახსნა*/
+
+
+/* ყველა მარცხნივ მყოფი h1 სათაურის setting-ების-გახსნა*/
+.same-options h1 {
+    font-family: var(--other-font);
+	font-size: var(--default-header-size);
+	font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+/* ყველა h1 სათაურის setting-ების-დახურვა*/
+
+/*contact-me-items-ის გახსნა*/
+.personal-items p {
+	font-size: var(--p-size);
+
+}
+
+.number-item {
+	align-self: center;
+}
+
+.personal-items a {
+   font-size: var(--p-size);
+   color: var(--default-green-color);
+   text-decoration: none;
+
+}
+
+.for-display-fl {
+    display: flex;
+    padding-left: 15px;
+}
+
+.icon-items {
+	width: 20px;
+	text-align: center;
+}
+
+.personal-items p {
+	font-size: var(--p-size);
+
+}
+
+.number-item {
+	align-self: center;
+}
+
+.personal-items a {
+   font-size: var(--p-size);
+   color: var(--default-green-color);
+   text-decoration: none;
+
+}
+
+.for-display-fl {
+    display: flex;
+    padding-left: 15px;
+}
+
+.icon-items {
+	width: 20px;
+	text-align: center;
+}
+
+/*contact-me-items-ის დახურვა*/
+
+
+
+
+
+/*education-items-ის გახსნა*/
+
+
+.same-education-options h1 {
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: capitalize;
+
+}
+.same-education-options:first-letter {
+	font-family: var(--only-lang-font);
+
+}
+
+.gldani-date p {
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.facultet-dates {
+	display: flex;
+	justify-content: space-around;
+}
+.facultet-dates p {
+	font-size: 12px;
+}
+
+/*education-items-ის დახურვა*/
+
+
+
+/*profesional-skill-items-ის გახსნა*/
+
+.prof-contents span {
+	font-size: 14px;
+}
+
+
+.balls {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: var(--default-color);
+	margin-left: 3px;
+	opacity: 0.5;
+	border: 1px solid var(--default-color);
+}
+
+.disable-balls {
+	background-color: transparent;
+}
+
+.for-skills span {
+	text-transform: uppercase;
+
+}
+
+/*profesional-skill-items-ის დახურვა*/
+
+/*language-items-ის გახსნა*/
+
+.for-displ-flex {
+	display: flex;
+
+}
+.percent-line {
+	height: 8px;
+	width: 100px;
+	border: 2px solid var(--default-color);
+	padding: 3px 0;
+
+}
+
+.inner-percent-line {
+
+	width: 70px;
+}
+
+.lang-same-p {
+	font-size: 13px;
+	width: 20%;
+	text-transform: capitalize;
+
+}
+
+.lang-same-p:first-letter {
+	font-family: var(--only-lang-font);
+}
+
+
+.lang-same-borders {
+	height: 100%;
+	background-color: var(--default-color);
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+}
+
+.geo {
+	width: 99%;
+}
+
+.en{
+	width: 80%;
+}
+
+.ru {
+	width: 65%;
+}
+
+.ital {
+	width: 48%;
+}
+
+/*language-items-ის დახურვა*/
+
+
+
+/*left-content-ის დახურვა*/
+
+
+
+
+/*right-content-ის გახსნა*/
+
+.right-items h1 {
+	color: rgb(48,142,134);
+}
+
+.only-green-color-content {
+	color: var(--main-green-color);
+}
+
+
+/* ყველა მარჯვნივ მყოფი h1 სათაურის setting-ების-გახსნა*/
+
+.right-same-options h1 {
+    font-family: var(--other-font);
+	font-size: var(--right-header-size);
+	font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+/* ყველა h1 სათაურის setting-ების-დახურვა*/
+
+
+/*about-me-item-ის გახსნა*/
+
+.about-me-item p {
+	font-size: var(--p-size);
+	text-align: justify;
+	text-indent: 20px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/*about-me-item-ის დახურვა*/
+
+/* */
+.working-items {
+	display: flex;
+	justify-content: space-between;
+}
+
+.working-date p {
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.working-area p {
+	padding-left: 25px;
+}
+
+.company-name h5 {
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.company-name:first-letter {
+	font-family: var(--only-lang-font);
+
+}
+
+
+/* */
+
+/*personal-skill-items-ის გახსნა*/
+
+.for-display-flex {
+	display: flex;
+}
+
+.p-items p {
+	font-size: 15px;
+
+}
+/*personal-skill-items-ის დახურვა*/
+
+
+
+
+
+/*right-content-ის დახურვა*/

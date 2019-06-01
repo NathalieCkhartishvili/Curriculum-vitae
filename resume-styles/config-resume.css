@@ -1,0 +1,15 @@
+:root {
+	--default-font:  'Slabo 27px', serif;
+	--header-font:  'Playfair Display', serif;
+	--other-font: 'Dancing Script', cursive;
+	--only-lang-font: 'Old Standard TT', serif;
+
+	--main-green-color: rgb(48,142,134);
+    --default-color: rgb(205,193,170);
+	--header-color: rgb(35,49,50);
+
+    --default-header-size: 25px;
+    --right-header-size: 30px;
+	--p-size: 11px;
+}
+
